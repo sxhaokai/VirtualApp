@@ -66,9 +66,7 @@ public class WechatMonitor {
         return null;
     }
 
-    public static void cloneApp(Context context) {
-        AppInfo appinfo = getWechatInfo(context);
-        Objects.requireNonNull(appinfo);
+    public static void cloneApp(Context context,AppInfo appinfo) {
         AppInfoLite info =  new AppInfoLite(appinfo.packageName, appinfo.path, appinfo.fastOpen);
 
         AppRepository mRepo = new AppRepository(context);
