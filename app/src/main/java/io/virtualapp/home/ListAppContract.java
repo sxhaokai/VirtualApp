@@ -4,7 +4,7 @@ import java.util.List;
 
 import io.virtualapp.abs.BasePresenter;
 import io.virtualapp.abs.BaseView;
-import io.virtualapp.home.models.AppInfo;
+import com.yunke.service.virtual.models.AppInfo;
 
 /**
  * @author Lody

@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -19,11 +18,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import io.virtualapp.R;
-import io.virtualapp.abs.ui.VActivity;
+import com.yunke.service.virtual.VActivity;
 import io.virtualapp.abs.ui.VUiKit;
 import io.virtualapp.home.adapters.AppLocationAdapter;
-import io.virtualapp.home.models.LocationData;
-import io.virtualapp.home.repo.AppRepository;
+import com.yunke.service.virtual.models.LocationData;
+import com.yunke.service.virtual.repo.AppRepository;
 
 import static io.virtualapp.home.location.MarkerActivity.EXTRA_LOCATION;
 

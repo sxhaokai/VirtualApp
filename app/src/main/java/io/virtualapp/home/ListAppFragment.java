@@ -24,8 +24,8 @@ import io.virtualapp.abs.ui.VFragment;
 import io.virtualapp.abs.ui.VUiKit;
 import io.virtualapp.home.adapters.CloneAppListAdapter;
 import io.virtualapp.home.adapters.decorations.ItemOffsetDecoration;
-import io.virtualapp.home.models.AppInfo;
-import io.virtualapp.home.models.AppInfoLite;
+import com.yunke.service.virtual.models.AppInfo;
+import com.yunke.service.virtual.models.AppInfoLite;
 import io.virtualapp.widgets.DragSelectRecyclerView;
 
 /**

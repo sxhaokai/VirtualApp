@@ -7,8 +7,8 @@ import com.lody.virtual.client.core.VirtualCore;
 
 import io.virtualapp.R;
 import io.virtualapp.VCommends;
-import io.virtualapp.abs.ui.VActivity;
 import io.virtualapp.abs.ui.VUiKit;
+import com.yunke.service.virtual.VActivity;
 import io.virtualapp.home.FlurryROMCollector;
 import io.virtualapp.home.HomeActivity;
 import jonathanfinerty.once.Once;

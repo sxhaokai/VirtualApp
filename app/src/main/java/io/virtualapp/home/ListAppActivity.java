@@ -16,9 +16,10 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.yunke.service.virtual.VActivity;
+
 import io.virtualapp.R;
 import io.virtualapp.VCommends;
-import io.virtualapp.abs.ui.VActivity;
 import io.virtualapp.home.adapters.AppPagerAdapter;
 
 /**

@@ -13,7 +13,7 @@ import java.util.List;
 
 import io.virtualapp.R;
 import io.virtualapp.abs.ui.VUiKit;
-import io.virtualapp.home.models.AppInfo;
+import com.yunke.service.virtual.models.AppInfo;
 import io.virtualapp.widgets.DragSelectRecyclerViewAdapter;
 import io.virtualapp.widgets.LabelView;
 

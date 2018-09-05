@@ -33,8 +33,8 @@ import com.tencent.mapsdk.raster.model.MarkerOptions;
 import com.tencent.tencentmap.mapsdk.map.CameraUpdateFactory;
 import com.tencent.tencentmap.mapsdk.map.MapView;
 import com.tencent.tencentmap.mapsdk.map.TencentMap;
+import com.yunke.service.virtual.VActivity;
 
-import io.virtualapp.abs.ui.VActivity;
 import io.virtualapp.R;
 
 public class MarkerActivity extends VActivity implements TencentMap.OnMapClickListener, TencentLocationListener {

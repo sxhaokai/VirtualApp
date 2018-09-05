@@ -1,6 +1,6 @@
 package io.virtualapp.widgets;
 
-import io.virtualapp.VApp;
+import com.yunke.service.virtual.VApp;
 
 /**
  * @author Lody

@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import io.virtualapp.VApp;
+import com.yunke.service.virtual.VApp;
 import io.virtualapp.abs.ui.VUiKit;
 
 public class ExplosionAnimator extends ValueAnimator {

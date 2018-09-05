@@ -1,6 +1,6 @@
 package io.virtualapp.vs;
 
-import io.virtualapp.abs.ui.VActivity;
+import com.yunke.service.virtual.VActivity;
 
 /**
  * @author Lody

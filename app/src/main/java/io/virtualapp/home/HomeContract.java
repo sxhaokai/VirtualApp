@@ -5,8 +5,8 @@ import java.util.List;
 
 import io.virtualapp.abs.BasePresenter;
 import io.virtualapp.abs.BaseView;
-import io.virtualapp.home.models.AppData;
-import io.virtualapp.home.models.AppInfoLite;
+import com.yunke.service.virtual.models.AppData;
+import com.yunke.service.virtual.models.AppInfoLite;
 
 /**
  * @author Lody

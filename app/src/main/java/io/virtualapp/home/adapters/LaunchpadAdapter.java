@@ -12,8 +12,8 @@ import java.util.List;
 
 import io.virtualapp.R;
 import io.virtualapp.abs.ui.VUiKit;
-import io.virtualapp.home.models.AppData;
-import io.virtualapp.home.models.MultiplePackageAppData;
+import com.yunke.service.virtual.models.AppData;
+import com.yunke.service.virtual.models.MultiplePackageAppData;
 import io.virtualapp.widgets.LabelView;
 import io.virtualapp.widgets.LauncherIconView;
 

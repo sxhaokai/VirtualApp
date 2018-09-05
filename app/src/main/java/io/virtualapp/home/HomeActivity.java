@@ -36,17 +36,18 @@ import java.util.List;
 import io.virtualapp.R;
 import io.virtualapp.VCommends;
 import io.virtualapp.abs.nestedadapter.SmartRecyclerAdapter;
-import io.virtualapp.abs.ui.VActivity;
 import io.virtualapp.abs.ui.VUiKit;
 import io.virtualapp.home.adapters.LaunchpadAdapter;
 import io.virtualapp.home.adapters.decorations.ItemOffsetDecoration;
 import io.virtualapp.home.location.VirtualLocationSettings;
-import io.virtualapp.home.models.AddAppButton;
-import io.virtualapp.home.models.AppData;
-import io.virtualapp.home.models.AppInfoLite;
-import io.virtualapp.home.models.EmptyAppData;
-import io.virtualapp.home.models.MultiplePackageAppData;
-import io.virtualapp.home.models.PackageAppData;
+
+import com.yunke.service.virtual.VActivity;
+import com.yunke.service.virtual.models.AddAppButton;
+import com.yunke.service.virtual.models.AppData;
+import com.yunke.service.virtual.models.AppInfoLite;
+import com.yunke.service.virtual.models.EmptyAppData;
+import com.yunke.service.virtual.models.MultiplePackageAppData;
+import com.yunke.service.virtual.models.PackageAppData;
 import io.virtualapp.widgets.TwoGearsView;
 
 import static android.support.v7.widget.helper.ItemTouchHelper.ACTION_STATE_DRAG;

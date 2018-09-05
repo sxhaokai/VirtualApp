@@ -14,12 +14,14 @@ import java.io.IOException;
 
 import io.virtualapp.VCommends;
 import io.virtualapp.abs.ui.VUiKit;
-import io.virtualapp.home.models.AppData;
-import io.virtualapp.home.models.AppInfoLite;
-import io.virtualapp.home.models.MultiplePackageAppData;
-import io.virtualapp.home.models.PackageAppData;
-import io.virtualapp.home.repo.AppRepository;
-import io.virtualapp.home.repo.PackageAppDataStorage;
+
+import com.yunke.service.virtual.LoadingActivity;
+import com.yunke.service.virtual.models.AppData;
+import com.yunke.service.virtual.models.AppInfoLite;
+import com.yunke.service.virtual.models.MultiplePackageAppData;
+import com.yunke.service.virtual.models.PackageAppData;
+import com.yunke.service.virtual.repo.AppRepository;
+import com.yunke.service.virtual.repo.PackageAppDataStorage;
 import jonathanfinerty.once.Once;
 
 /**

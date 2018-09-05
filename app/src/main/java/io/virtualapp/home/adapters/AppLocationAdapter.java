@@ -3,13 +3,12 @@ package io.virtualapp.home.adapters;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import io.virtualapp.R;
 import io.virtualapp.abs.ui.BaseAdapterPlus;
-import io.virtualapp.home.models.LocationData;
+import com.yunke.service.virtual.models.LocationData;
 
 public class AppLocationAdapter extends BaseAdapterPlus<LocationData> {
     public AppLocationAdapter(Context context) {

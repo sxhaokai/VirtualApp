@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import io.virtualapp.R;
-import io.virtualapp.VApp;
+import com.yunke.service.virtual.VApp;
 import io.virtualapp.home.ListAppFragment;
 
 /**
