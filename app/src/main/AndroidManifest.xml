@@ -33,13 +33,13 @@
             android:screenOrientation="portrait"
             android:theme="@style/UITheme"/>
 
-        <activity
-            android:name="com.yunke.service.virtual.LoadingActivity"
-            android:excludeFromRecents="true"
-            android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:taskAffinity="va.task.loading"
-            android:theme="@style/TransparentTheme"/>
+        <!--<activity-->
+            <!--android:name="com.yunke.service.virtual.LoadingActivity"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:noHistory="true"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:taskAffinity="va.task.loading"-->
+            <!--android:theme="@style/TransparentTheme"/>-->
         <activity
             android:name=".home.location.VirtualLocationSettings"
             android:screenOrientation="portrait"

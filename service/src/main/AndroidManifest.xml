@@ -1,2 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yunke.service.virtual" />
+    package="com.yunke.service.virtual"
+
+    >
+
+    <application>
+        <activity
+            android:name="com.yunke.service.virtual.LoadingActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="va.task.loading"
+            android:theme="@style/TransparentTheme"
+            />
+    </application>
+</manifest>

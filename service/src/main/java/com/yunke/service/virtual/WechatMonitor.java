@@ -66,7 +66,7 @@ public class WechatMonitor {
         return null;
     }
 
-    public static void cloneApp(Context context,AppInfo appinfo) {
+    public static void cloneApp(Context context,AppInfo appinfo ,Callback<AppData> callback) {
         AppInfoLite info =  new AppInfoLite(appinfo.packageName, appinfo.path, appinfo.fastOpen);
 
         AppRepository mRepo = new AppRepository(context);
@@ -120,11 +120,13 @@ public class WechatMonitor {
             if (!multipleVersion) {
                 PackageAppData data = addResult.appData;
                 data.isLoading = true;
+                callback.callback(data);
 //                    mView.addAppToLauncher(data);
 //                    handleOptApp(data, info.packageName, true);
             } else {
                 MultiplePackageAppData data = new MultiplePackageAppData(addResult.appData, addResult.userId);
                 data.isLoading = true;
+                callback.callback(data);
 //                    mView.addAppToLauncher(data);
 //                    handleOptApp(data, info.packageName, false);
             }
